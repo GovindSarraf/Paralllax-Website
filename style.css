@@ -1,0 +1,52 @@
+body,
+html {
+       font-family: Arial, Helvetica, sans-serif;
+       height: 100%;
+       margin: 0;
+       font-size: 16px;
+       line-height: 1.5;
+       font-weight: 300;
+       color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       opacity: 0.70;
+       background-attachment: fixed !important;
+}
+
+.pimg1 {
+       background: url(./image/pexels-souvenirpixels-1519088.jpg) no-repeat center center/cover;
+       min-height: 100vh;
+}
+
+.pimg2 {
+       background: url(./image/pexels-mehmetalituran-12925715.jpg)no-repeat center center/cover;
+       min-height: 400px;
+}
+
+.pimg3 {
+       background: url(./image/pexels-marina-zvada-844583049-20046904.jpg)no-repeat center center/cover;
+       min-height: 300px;
+}
+
+.section {
+       text-align: center;
+       justify-content: center;
+       padding: 5px 20px;
+}
+
+.section-dark {
+       background-color: #666;
+       color: #f4f4f4;
+}
+
+.ptxt {
+       color: #f4f4f4;
+
+
+}
